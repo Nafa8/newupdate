@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-18 22:30:13.167916",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "item_name",
+  "current_qty",
+  "safety_stock",
+  "suggested_qty",
+  "estimated_rate",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "\u0631\u0645\u0632 \u0627\u0644\u0639\u0646\u0635\u0631",
+   "options": "Item"
+  },
+  {
+   "fetch_from": "item_code.item_name",
+   "fieldname": "item_name",
+   "fieldtype": "Link",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0639\u0646\u0635\u0631",
+   "options": "Item"
+  },
+  {
+   "fieldname": "current_qty",
+   "fieldtype": "Float",
+   "label": "\u0627\u0644\u0643\u0645\u064a\u0629 \u0627\u0644\u062d\u0627\u0644\u064a\u0629"
+  },
+  {
+   "fetch_from": "item_code.safety_stock",
+   "fieldname": "safety_stock",
+   "fieldtype": "Float",
+   "label": "\u0627\u0644\u0643\u0645\u064a\u0629 \u0627\u0644\u062d\u0631\u062c\u0629"
+  },
+  {
+   "fieldname": "suggested_qty",
+   "fieldtype": "Float",
+   "label": "\u0627\u0644\u0643\u0645\u064a\u0629 \u0627\u0644\u0645\u0642\u062a\u0631\u062d\u0629"
+  },
+  {
+   "fetch_from": "item_code.last_purchase_rate",
+   "fieldname": "estimated_rate",
+   "fieldtype": "Currency",
+   "label": "\u0627\u0644\u0642\u064a\u0645\u0629 \u0627\u0644\u0645\u062a\u0648\u0642\u0639\u0629"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "\u0627\u0644\u0645\u062c\u0645\u0648\u0639"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-29 18:54:19.354652",
+ "modified_by": "seganafa@gmail.com",
+ "module": "ERPNext-sys",
+ "name": "purchase plan item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

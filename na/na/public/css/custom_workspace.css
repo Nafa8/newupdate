@@ -1,0 +1,41 @@
+/* --- Workspace Dark Theme for Selling Module --- */
+.workspace[data-module="Selling"] {
+    background-color: #1e1e2f !important; /* خلفية داكنة */
+    color: #f0f0f0 !important; /* نص فاتح */
+}
+
+.workspace[data-module="Selling"] .workspace-card {
+    background-color: #2b2b3d !important; /* خلفية الكروت */
+    border-radius: 12px !important; /* حواف مستديرة */
+    padding: 15px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important; /* ظل للكرت */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.workspace[data-module="Selling"] .workspace-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.7);
+}
+
+.workspace[data-module="Selling"] .workspace-card .workspace-card-title {
+    font-size: 1.3rem !important;
+    font-weight: bold;
+    color: #ffcc00 !important; /* لون العنوان */
+}
+
+.workspace[data-module="Selling"] .workspace-card .workspace-card-description {
+    color: #cccccc !important;
+    font-size: 1rem !important;
+}
+
+/* Scrollbar Dark */
+.workspace[data-module="Selling"]::-webkit-scrollbar {
+    width: 8px;
+}
+.workspace[data-module="Selling"]::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 4px;
+}
+.workspace[data-module="Selling"]::-webkit-scrollbar-track {
+    background-color: #1e1e2f;
+}

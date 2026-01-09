@@ -1,0 +1,41 @@
+{
+ "app": "na",
+ "charts": [],
+ "content": "[{\"id\":\"VGPBA-9uH6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Coffe-shop</span>\",\"col\":12}},{\"id\":\"f6vp1aFT-Y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"test\",\"col\":3}}]",
+ "creation": "2025-11-02 17:55:52.114682",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "file-large",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Coffe-shop",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-11-08 01:20:11.521794",
+ "modified_by": "Administrator",
+ "module": "ERPNext-sys",
+ "name": "Coffe-shop",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "test",
+   "link_to": "test1",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Coffe-shop",
+ "type": "Workspace"
+}
